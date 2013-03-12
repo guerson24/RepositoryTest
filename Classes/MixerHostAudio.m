@@ -10,7 +10,7 @@ this Apple software constitutes acceptance of these terms.  If you do
 not agree with these terms, please do not use, install, modify or
 redistribute this Apple software.
 
-In consideration of your agreement to abide by the following terms, and
+In consideration of your agreement to abide by the followng terms, and
 subject to these terms, Apple grants you a personal, non-exclusive
 license, under Apple's copyrights in this original Apple software (the
 "Apple Software"), to use, reproduce, modify and redistribute the Apple
@@ -71,8 +71,7 @@ Copyright (C) 2010 Apple Inc. All Rights Reserved.
 //    Declared as AURenderCallback in AudioUnit/AUComponent.h. See Audio Unit Component Services Reference.
 static OSStatus inputRenderCallback (
 
-    void                        *inRefCon,      // A pointer to a struct containing the complete audio data 
-                                                //    to play, as well as state information such as the  
+    to play, as well as state information such as the  
                                                 //    first sample to play on this invocation of the callback.
     AudioUnitRenderActionFlags  *ioActionFlags, // Unused here. When generating audio, use ioActionFlags to indicate silence 
                                                 //    between sounds; for silence, also memset the ioData buffers to 0.
